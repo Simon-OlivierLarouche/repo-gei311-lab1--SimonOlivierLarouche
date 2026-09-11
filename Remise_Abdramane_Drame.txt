@@ -81,7 +81,11 @@ Le Membre B doit annuler l'erreur sans perdre le travail valide ultérieur.
 3. SECTION BILAN ET README (EXPÉRIENCE & CHEAT-SHEET)
 
 Résumé des apprentissages :
-Ce premier travail pratique m'a initié aux mécanismes concrets du travail collaboratif sous Git et GitHub. J'ai pu observer comment l'isolation des tâches sur des branches distinctes évite d'altérer la branche principale durant le développement. Les exercices m'ont sensibilisé à l'importance de rédiger des messages de commit précis afin d'assurer une traçabilité rigoureuse à chaque jalon du projet. Sur le plan pratique, l'utilisation répétée des commandes de synchronisation (push/pull) m'a permis de maîtriser l'alignement entre l'espace de travail local et le dépôt distant. Enfin, les mises en situation m'ont exercé à deux aspects essentiels : la transition d'un projet local non versionné vers un environnement partagé en ligne, ainsi que la gestion des régressions de code grâce aux mécanismes de restauration de commits stables.
+Ce premier travail pratique m'a initié aux mécanismes concrets du travail collaboratif sous Git et GitHub. 
+J'ai pu observer comment l'isolation des tâches sur des branches distinctes évite d'altérer la branche principale durant le développement. 
+Les exercices m'ont sensibilisé à l'importance de rédiger des messages de commit précis afin d'assurer une traçabilité rigoureuse à chaque jalon du projet. 
+Sur le plan pratique, l'utilisation répétée des commandes de synchronisation (push/pull) m'a permis de maîtriser l'alignement entre l'espace de travail local et le dépôt distant. 
+Enfin, les mises en situation m'ont exercé à deux aspects essentiels : la transition d'un projet local non versionné vers un environnement partagé en ligne, ainsi que la gestion des régressions de code grâce aux mécanismes de restauration de commits stables.
 
 
 Aide-mémoire Git (Cheat-Sheet) :
