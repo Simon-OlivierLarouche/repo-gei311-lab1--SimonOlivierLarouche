@@ -1,3 +1,6 @@
+Simon-Olivier Larouche
+LARS03020400
+
 Bonjour,
 Dans ce laboratoire, j'ai appris à utiliser GitHub pour gérer des travaux d’équipe. Ce laboratoire m'a permis de comprendre comment 
 partager un projet avec un coéquipier ainsi que comment créer un environnement de travail séparé à l’aide des branches. La création de dossiers et de 
