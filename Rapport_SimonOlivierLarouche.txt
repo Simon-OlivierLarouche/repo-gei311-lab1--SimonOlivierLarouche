@@ -9,6 +9,24 @@ fichiers texte m'a appris à mieux comprendre l’utilité des commits afin de b
 permis de pratiquer la gestion des erreurs, le retour à une version fonctionnelle ainsi que la création d’un repository local avant de le rendre
 accessible sur GitHub.
 
+Situation 2-1 
+Pour cette situation, le projet existait initialement seulement sur l’ordinateur local et aucun repository n’avait encore été créé sur GitHub.
+J’ai d’abord créé le dossier du projet et j’ai initialisé Git avec la commande git init. J’ai ensuite créé la même structure que dans la partie 1
+avec le dossier Dossier_A et le fichier textA.txt. Les fichiers ont été ajoutés à Git et un premier commit local a été effectué avec git add --all
+et git commit -m "". Puisque la collaboration avec le membre B était nécessaire, un repository vide a ensuite été créé sur GitHub. J’ai relié le 
+repository local au repository distant avec git remote add origin URL. Le repository local a ensuite été envoyé sur GitHub avec git push -u origin main
+Une fois le projet disponible sur GitHub, le membre B pouvait accéder au repository et le cloner. Cette situation m’a permis de comprendre comment 
+partir d’un projet uniquement local et le rendre accessible à un coéquipier à l’aide de GitHub.
+
+Situation 2-2
+Pour cette situation, j'ai d’abord créé le repository sur GitHub, puis je l'ai cloné localement. J'ai créé Dossier_A et textA.txt, puis effectué un commit et un 
+push vers GitHub. Le membre B a ensuite cloné le repository et créé Dossier_B ainsi que le fichier textB.txt. Il a ensuite effectué un premier commit. Après ce premier commit, le membre B a ajouté volontairement la ligne « erreur injectée » dans Dossier_A/textA.txt et a créé un nouveau commit pour cette modification. Le membre B 
+a ensuite créé le fichier Dossier_B/textB2.txt contenant la phrase « autre changement de B » et a effectué un autre commit. Les changements ont ensuite été 
+synchronisés avec le repository distant. J'ai ensuite créé une issue sur GitHub afin de signaler la présence de la ligne « erreur injectée » dans Dossier_A/textA.txt. L’issue décrivait le problème. Le membre B a ensuite consulté l’historique des commits et ceci lui a permis d’identifier le commit problématique ainsi que la dernière version fonctionnelle. J'ao utilisé l’historique des commits pour revenir à la dernière version non erronée.
+
+Cette situation m’a permis de comprendre comment utiliser les issues pour identifier un mauvais commit et revenir à une version fonctionnelle.
+
+
 Git Cheat-Sheet:
 
 Git config --global user.name "" : Permet de définir un nom
