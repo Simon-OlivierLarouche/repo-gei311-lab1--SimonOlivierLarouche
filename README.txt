@@ -23,7 +23,7 @@ J'ai appris qu'une issue doit être rédigée de manière claire et précise afi
 
 Aide-mémoire Git (Cheat-Sheet) :
 Configuration & Initialisation :
-- git config --global user.name "..."  : Permet l'enregistrement l'identité de l'auteur des commits.
+- git config --global user.name "..."  : Permet d'enregistrer l'identité de l'auteur des commits.
 - git config --global user.email "..." : Associe une adresse de contact aux contributions.
 - git init                            : Crée un nouveau dépôt Git local dans le répertoire courant.
 - git clone <URL>                     : Télécharge localement l'intégralité d'un projet distant avec son historique.
